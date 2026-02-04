@@ -12,7 +12,7 @@ on:
 jobs:
   call-packaging-workflow:
     # Syntax: {owner}/{repo}/{path-to-file}@{ref}
-    uses: YB-etashq/githubActionTest/.github/workflows/create_2gp_package.yml@main
+    uses: YB-etashq/githubActionTest/.github/workflows/create_2gp_package.yml@v1
     with:
       package-name: "Intake Desk Schema"
     secrets:
