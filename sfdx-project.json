@@ -1,0 +1,20 @@
+{
+  "packageDirectories": [
+    {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "path": "force-app",
+      "default": true,
+      "package": "Intake Desk Schema",
+      "versionDescription": "Intake Desk Schema"
+    }
+  ],
+  "name": "Intake Desk Schema",
+  "namespace": "intakedesk",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "65.0",
+  "packageAliases": {
+    "Intake Desk Schema": "0HogL0000000nGrSAI",
+    "Intake Desk Schema@0.1.0-1": "04tgL0000009BDxQAM"
+  }
+}

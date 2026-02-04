@@ -1,0 +1,18 @@
+name: Package Pre-Check
+
+on:
+  pull_request:
+    branches:
+      - uat
+    paths-ignore:
+      - 'sfdx-project.json'
+      - 'README.md'
+
+jobs:
+  call-packaging-workflow:
+    # Syntax: {owner}/{repo}/{path-to-file}@{ref}
+    uses: intakedeskdev/intakedesk-sf-connector/.github/workflows/create_2gp_package.yml@main
+    with:
+      package-name: "Intake Desk Schema"
+    secrets:
+      inherit
